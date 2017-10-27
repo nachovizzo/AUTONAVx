@@ -9,7 +9,7 @@
  - If python is not installed or an error is shown from the above command you can download python here: https://www.python.org/downloads/
 
 ### From the forum post by BSam:
- - Step 1: Download the zip file: autonav.in.tum.de/autonavx_demo.zip
+ - Step 1: Download the zip file: [autonav.in.tum.de/autonavx_demo.zip](http://autonav.in.tum.de/autonavx_demo.zip)
  - Step 2: Unzip to a directory, then navigate into the directory
  - Step 3: While still inside the directory, run this command (keep it running):
 (Python 2.x)
