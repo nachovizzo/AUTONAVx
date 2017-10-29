@@ -29,3 +29,42 @@ print "The scalar product of x1= " + str(x1) + ",and x2= " + str(x2) + " ,is =  
 
 cross_product = np.cross(x1, x2)
 print "The cross product of x1= " + str(x1) + ",and x2= " + str(x2) + " ,is =  " + str(cross_product)
+
+# --------------------------------------------------------------------------------------------------
+# Matrix Algebra
+M1 = np.matrix([[1, 2], [3, 4]])
+M2 = np.matrix([[5, 4], [3, 2]])
+print "M1= " + str(M1)
+print " + M2= " + str(M2)
+print "=" + str(M1 + M2)
+
+M1 = np.matrix([[-1, 0], [0, 1]])
+M2 = np.matrix([[-2, 1], [-1, 2]])
+print "M1= " + str(M1)
+print " - M2= " + str(M2)
+print "=" + str(M1 - M2)
+
+# --------------------------------------------------------------------------------------------------
+# Scalar Matrix Multiplication
+M1 = np.matrix([[1, -2], [2, -1]])
+print "2.5 * M1= " + str(2.5 * M1)
+
+# --------------------------------------------------------------------------------------------------
+# Matrix Vector Multiplication
+M1 = np.matrix([[1, 0], [0, 1]])
+x1 = np.array([1, 2])
+print "x1 * M1= " + str(M1.dot(x1))
+
+M1 = np.matrix([[1, -1], [-1, 1]])
+x1 = np.array([5, 6])
+print "x1 * M1= " + str(M1.dot(x1))
+
+# --------------------------------------------------------------------------------------------------
+# Matrix Multiplication
+M1 = np.matrix([[1, 0], [0, -1]])
+M2 = np.matrix([[1, -2], [2, -1]])
+print "M1 * M2= " + str(M1 * M2)
+
+M1 = np.matrix([[1, 2], [3, 4]])
+M2 = np.matrix([[4, 3], [2, 1]])
+print "M1 * M2= " + str(M1 * M2)
